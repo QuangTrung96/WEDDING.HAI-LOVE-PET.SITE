@@ -330,14 +330,16 @@
 	<center>Thiệp Mời Hôn Lễ - Xuân Hải ❤️ Mùi Pết</center>
 	<div>&nbsp;</div>
 	<div class="gototop active">
-		<audio controls id="myAudio" title="Click Giúp Mình Nhé!">
+		<audio controls id="myAudio" title="Click Giúp Mình Nhé!" autoplay="true">
 			<source src="images/danhchoem.mp3">
 		</audio>
 	</div>
 	<script>
 		$( document ).ready(function() {
 			console.log('ready!!!');
-			$('#myAudio')[0].play();
+			setTimeout(function() {
+				$('#myAudio')[0].play();
+			}, 1000);
 		});
 	</script>
 	<script>
