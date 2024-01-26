@@ -9,16 +9,16 @@
   .firework::before,
   .firework::after
   {
-    --initialSize: 0.5vmin;
-    --finalSize: 45vmin;
-    --particleSize: 0.2vmin;
-    --color1: yellow;
+    --initialSize: 0.6vmin;
+    --finalSize: 48vmin;
+    --particleSize: 0.3vmin;
+    --color1: rgb(255, 38, 0);
     --color2: khaki;
-    --color3: white;
+    --color3: rgb(148, 20, 20);
     --color4: lime;
     --color5: gold;
-    --color6: mediumseagreen;
-    --y: -30vmin;
+    --color6: white;
+    --y: -35vmin;
     --x: -50%;
     --initialY: 60vmin;
     content: "";
