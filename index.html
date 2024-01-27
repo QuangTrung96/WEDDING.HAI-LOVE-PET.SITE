@@ -419,6 +419,15 @@
 			}, 0)
 		}());
 	</script>
+	<script>
+		$( document ).ready(function() {
+			if (window.matchMedia("(max-width: 767px)").matches)
+			{
+				console.log( "is mobile!" );
+				$('#fh5co-header').attr('style', 'background-position: -100px 50px !important');
+			}
+		});
+	</script>
 	<div class="firework"></div>
 	<div class="firework"></div>
 	</body>
